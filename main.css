@@ -1,12 +1,12 @@
 @keyframes htmlback{
   0% {background-color: black;}
-  50% {background-color: darkblue;}
+  50% {background-color: darkred;}
   100% {background-color: black;}
 }
 
 @keyframes txtbanner{
   0% {opacity: 0;}
-  50% {opacity: 1;}
+  50% {opacity: .5;}
   100% {opacity: 0;}
 }
 
@@ -19,12 +19,12 @@ body{
 
 h1, p{
   position: relative;
-  color:white;
+  color:red;
 }
 
 p {
   animation-name: txtbanner;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-delay:0s;
+  animation-delay:1s;
 }
