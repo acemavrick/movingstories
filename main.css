@@ -9,14 +9,14 @@
 }
 
 @keyframes txtmove{
-  0% {align: left;}
-  50%{align: center;}
-  100%{align: right;}
+  0% {text-align: left;}
+  50%{text-align: center;}
+  100%{text-align: right;}
 }
 
 html{
   animation-name: htmlback;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   backround-color: black;
@@ -24,7 +24,7 @@ html{
 
 body {
   animation-name: txtmove;
-  animation-duration: 5s;
+  animation-duration: 20s;
   animate-direction: alternate;
   animation-iteration-count: infinite;
   color: darkblue;
