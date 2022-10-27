@@ -1,8 +1,8 @@
 @keyframes htmlback{
   0% {background-color: black;}
-  25% {background-color: blue;}
-  50% {background-color: green;}
-  75% {background-color: blue;}
+  25% {background-color: darkblue;}
+  50% {background-color: blue;}
+  75% {background-color: darkblue;}
   100% {background-color: black;}
 }
 
@@ -19,29 +19,19 @@ html{
 }
 h1, p, #secret{
   position: relative;
+  color:white;
 }
 
 h1 {
-  color: grey
   animation-name: txtbanner;
-  animation-duration: 15s;
+  animation-duration: 15.5s;
   animation-iteration-count: infinite;
-  animation-delay:1.4s;
+  animation-delay:.5s;
 }
 
 p {
-  color: darkblue;
   animation-name: txtbanner;
   animation-duration: 15s;
   animation-iteration-count: infinite;
-  color: darkblue;
-  animation-delay:.7s;
-}
-
-#secret {
-  color: black;
-  opacity: 0.1;
-  animation-name: txtbanner;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+  animation-delay:0s;
 }
