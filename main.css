@@ -8,25 +8,19 @@
 
 @keyframes txtbanner{
   0% {left:-20vw; opacity: 1;}
-  100% {left: 100vw; opacity: 0;}
+  100% {left: 100vw; opacity: 0; size: 0px;}
 }
 
-html{
+body{
   animation-name: htmlback;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   backround-color: black;
 }
-h1, p, #secret{
+
+h1, p{
   position: relative;
   color:white;
-}
-
-h1 {
-  animation-name: txtbanner;
-  animation-duration: 15.5s;
-  animation-iteration-count: infinite;
-  animation-delay:.5s;
 }
 
 p {
