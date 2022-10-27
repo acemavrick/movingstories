@@ -9,8 +9,9 @@
 }
 
 @keyframes txtbanner{
-  from {left:-100vw;}
-  to {left: 150vw;}
+  0% {left:-20vw; opacity: 1;}
+  50% {left:100vw; opacity: .9;}
+  100% {left: 120vw; opacity: 0;}
 }
 
 html{
@@ -43,7 +44,7 @@ p {
 #secret {
   color: black;
   opacity: 0.1;
-  nimation-name: txtbanner;
+  animation-name: txtbanner;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
