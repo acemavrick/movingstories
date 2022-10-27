@@ -28,7 +28,7 @@ h1 {
   color: grey
   animation-name: txtbanner;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 4;
   animation-delay:1s;
 }
 
@@ -36,7 +36,7 @@ p {
   color: darkblue;
   animation-name: txtbanner;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 4;
   color: darkblue;
   animation-delay:.5s;
 }
@@ -46,5 +46,5 @@ p {
   opacity: 0.1;
   animation-name: txtbanner;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 4;
 }
