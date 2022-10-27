@@ -1,5 +1,26 @@
+@keyframes htmlback{
+  0% {background-color: red;}
+  15% {background-color: orange;}
+  31% {background-color: yellow;}
+  47% {background-color: green;}
+  73% {background-color: blue;}
+  89% {background-color: indigo;}
+  100% {background-color: violet;}
+}
+
+@keyframes txtmove{
+  0% {align: left;}
+  50%{align: center;}
+  100%{align: right;}
+}
+
 html{
-  background-color: grey;
+  animation-name: htmlback;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-name: txtmove;
+  animation-duration: 5s;
+  animate-direction: alternate;
 }
 
 body {
