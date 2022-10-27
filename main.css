@@ -22,7 +22,7 @@ html{
 
 h1 {
   color: grey
-  animation-name: txtmove;
+  animation-name: txtbanner;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-delay:1s;
@@ -30,7 +30,7 @@ h1 {
 
 p {
   color: darkblue;
-  animation-name: txtmove;
+  animation-name: txtbanner;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   color: darkblue;
@@ -40,7 +40,7 @@ p {
 #secret {
   color: black;
   opacity: 0.1;
-  nimation-name: txtmove;
+  nimation-name: txtbanner;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
