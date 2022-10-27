@@ -10,7 +10,7 @@
 
 @keyframes txtbanner{
   from {left:-100vw;}
-  to {left: 100vw;}
+  to {left: 150vw;}
 }
 
 html{
@@ -26,7 +26,7 @@ h1, p, #secret{
 h1 {
   color: grey
   animation-name: txtbanner;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay:1s;
 }
@@ -34,7 +34,7 @@ h1 {
 p {
   color: darkblue;
   animation-name: txtbanner;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   color: darkblue;
   animation-delay:.5s;
@@ -44,6 +44,6 @@ p {
   color: black;
   opacity: 0.1;
   nimation-name: txtbanner;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
