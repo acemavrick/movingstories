@@ -1,15 +1,14 @@
 @keyframes htmlback{
-  0% {background-color: yellow;}
+  0% {background-color: black;}
   25% {background-color: blue;}
   50% {background-color: green;}
   75% {background-color: blue;}
-  100% {background-color: yellow;}
+  100% {background-color: black;}
 }
 
 @keyframes txtbanner{
   0% {left:-20vw; opacity: 1;}
-  50% {left:100vw; opacity: .9;}
-  100% {left: 120vw; opacity: 0;}
+  100% {left: 100vw; opacity: 0;}
 }
 
 html{
@@ -25,24 +24,24 @@ h1, p, #secret{
 h1 {
   color: grey
   animation-name: txtbanner;
-  animation-duration: 10s;
-  animation-iteration-count: 4;
-  animation-delay:1s;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay:1.4s;
 }
 
 p {
   color: darkblue;
   animation-name: txtbanner;
-  animation-duration: 10s;
-  animation-iteration-count: 4;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
   color: darkblue;
-  animation-delay:.5s;
+  animation-delay:.7s;
 }
 
 #secret {
   color: black;
   opacity: 0.1;
   animation-name: txtbanner;
-  animation-duration: 10s;
-  animation-iteration-count: 4;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
