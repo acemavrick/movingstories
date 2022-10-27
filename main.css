@@ -19,6 +19,9 @@ html{
   animation-iteration-count: infinite;
   backround-color: black;
 }
+h1, p, #secret{
+  position: relative;
+}
 
 h1 {
   color: grey
