@@ -7,8 +7,9 @@
 }
 
 @keyframes txtbanner{
-  0% {left:-20vw; opacity: 1;}
-  100% {left: 100vw; opacity: 0; size: 0px;}
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
 }
 
 body{
