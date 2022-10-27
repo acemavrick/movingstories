@@ -18,15 +18,22 @@ html{
   animation-name: htmlback;
   animation-duration: 5s;
   animation-direction: alternate;
-  animation-name: txtmove;
-  animation-duration: 5s;
-  animate-direction: alternate;
+  animation-iteration-count: infinite;
+  backround-color: black;
 }
 
 body {
+  animation-name: txtmove;
+  animation-duration: 5s;
+  animate-direction: alternate;
+  animation-iteration-count: infinite;
   color: darkblue;
 }
 
 h1 {
-  color: black;
+  color: grey;
+}
+
+#secret {
+  color: lightgrey;
 }
