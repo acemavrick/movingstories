@@ -24,7 +24,7 @@ h1, p{
 
 p {
   animation-name: txtbanner;
-  animation-duration: 3s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
   animation-delay:1s;
 }
