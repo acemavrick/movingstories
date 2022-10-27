@@ -1,8 +1,6 @@
 @keyframes htmlback{
   0% {background-color: black;}
-  25% {background-color: darkblue;}
-  50% {background-color: blue;}
-  75% {background-color: darkblue;}
+  50% {background-color: darkblue;}
   100% {background-color: black;}
 }
 
