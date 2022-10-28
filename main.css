@@ -22,7 +22,7 @@
     animation-fill-mode: none,forwards,forwards,forwards;
 }
 
-.title {
+#main {
     text-align: center;
     animation-name: assumeshadow;
     animation-duration: 3s;
@@ -30,3 +30,10 @@
     animation-iteration-count: 1;
     animation-fill-mode:forwards;
 }
+
+.navitem {
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 2px;
+}
+    
