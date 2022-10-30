@@ -29,6 +29,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.interviewpic{
+	border-radius: 10px;
+}
+
+.summ{
+	margin-bottom: 0px;
+}
+.author{
+	font-style: italic;
+	color:#757474;
+	font-size: 90%;
+}
+
 body {
 	line-height: 1;
 }
